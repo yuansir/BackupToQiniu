@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
-ACCESS_KEY = 'xxxxxx'
-SECRET_KEY = 'xxxxxx'
+ACCESS_KEY = 'xxxxx'
+SECRET_KEY = 'xxxxx'
