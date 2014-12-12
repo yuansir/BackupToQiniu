@@ -11,7 +11,6 @@ tar_name = strftime("%Y-%m-%d", gmtime()) + '.tar.gz'
 tar_file = common.TMP_BACK_DIR + '/' + tar_name
 tar = tarfile.open(tar_file, 'w|gz')
 
-
 def log(status='Success', content=''):
     print '%s [%s] %s' % (strftime("%Y/%m/%d %H:%M:%S", gmtime()), status, content)
 
